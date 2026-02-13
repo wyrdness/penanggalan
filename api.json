@@ -1,10 +1,8 @@
 {
-  "category": "UNDEAD",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/penanggalan",
     "maintainers": [
       {
@@ -18,348 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "penanggalan",
     "name": "Penanggalan",
-    "aliases": [
-      {
-        "name": "Penanggal",
-        "language": "Malay",
-        "region": "Malaysia/Indonesia"
-      },
-      {
-        "name": "Leyak",
-        "language": "Balinese",
-        "region": "Bali, Indonesia",
-        "meaning": "Similar creature in Balinese tradition"
-      },
-      {
-        "name": "Krasue",
-        "language": "Thai",
-        "region": "Thailand",
-        "meaning": "Thai variant of floating head vampire"
-      }
-    ],
+    "aliases": [],
     "category": "UNDEAD",
-    "subcategory": "Vampire / Entity Spirit",
+    "subcategory": "| Blood-drinking undead creatures |",
     "tags": [
-      "vampire",
-      "malaysian",
-      "indonesian",
-      "southeast-asian",
-      "detached-head",
-      "blood-drinker",
-      "nocturnal",
-      "female",
-      "cursed"
+      "folklore",
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "A Malaysian vampire consisting of a detached female head with dangling organs and entrails that flies at night to feed on blood, particularly targeting pregnant women and newborns.",
-      "full": "The Penanggalan is one of Southeast Asia's most horrifying supernatural creatures—a female vampire whose head detaches from her body at night, trailing her exposed spine, intestines, stomach, and other internal organs as she flies through the darkness seeking blood. By day, she appears as a normal woman, often a midwife or someone who practices black magic. At night, her head separates and flies off to feed, preferring the blood of pregnant women, newborns, and placentas. She uses her long tongue to feed. The origins vary: some say she's a woman practicing black magic, others that she's a midwife who broke fasting rules and was cursed. During the day, she must return to her body and shrink her organs by soaking them in a jar of vinegar to fit back into her body cavity. Protection includes thorny plants around the house (the thorns catch in her dangling entrails) and detection by the smell of vinegar. The Penanggalan is similar to the Filipino Manananggal and represents living folk tradition in Southeast Asia, where some belief continues today."
+      "summary": "The **Penanggalan** is one of Southeast Asia's most horrifying supernatural creatures—a female vampire whose **head detaches from her body at night**, trailing her **exposed spine, intestines, stomach, and other internal organs** as she flies through the darkness seeking blood.",
+      "full": "The **Penanggalan** is one of Southeast Asia's most horrifying supernatural creatures—a female vampire whose **head detaches from her body at night**, trailing her **exposed spine, intestines, stomach, and other internal organs** as she flies through the darkness seeking blood."
     },
     "etymology": {
-      "origin": "From Malay/Indonesian folklore.",
-      "meaning": "Derived from 'tanggal' meaning 'to remove' or 'to detach', thus 'penanggalan' means 'the one who detaches' or 'the detached one'",
-      "first_use": "Traditional Malay/Indonesian folklore, documented in colonial period"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "UNDEAD",
-      "type": "Vampire / Entity Spirit",
-      "subtype": "Detached Head Vampire",
-      "variant": "Southeast Asian"
+      "type": "| Blood-drinking undead creatures |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "manananggal",
-        "name": "Manananggal",
-        "relationship": "regional_variant",
-        "description": "Filipino vampire with detaching upper body"
-      },
-      {
-        "id": "rokurokubi",
-        "name": "Rokurokubi/Nukekubi",
-        "relationship": "similar",
-        "description": "Japanese yokai with detaching head"
-      },
-      {
-        "id": "vampires",
-        "name": "Vampires",
-        "relationship": "type",
-        "description": "Blood-drinking undead creatures"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "day_form": {
-        "description": "Normal human woman, often appears as midwife or practitioner of traditional medicine",
-        "indistinguishable": true
-      },
-      "night_form": {
-        "description": "Detached head with trailing organs and entrails",
-        "components": [
-          "Female head",
-          "Exposed spine hanging below",
-          "Intestines trailing behind",
-          "Stomach and other internal organs",
-          "Long tongue for feeding"
-        ]
-      },
-      "features": [
-        {
-          "feature": "Detached head",
-          "description": "Head separates completely from body",
-          "frequency": "always"
-        },
-        {
-          "feature": "Dangling organs",
-          "description": "Entrails, intestines, and internal organs trail below the flying head",
-          "frequency": "always"
-        },
-        {
-          "feature": "Long tongue",
-          "description": "Extended tongue used to feed on blood",
-          "frequency": "always"
-        },
-        {
-          "feature": "Flying ability",
-          "description": "Head flies through the air at night",
-          "frequency": "always"
-        },
-        {
-          "feature": "Vinegar smell",
-          "description": "Associated smell from vinegar used to shrink organs",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "By day: normal human female. By night: flying head with spine and internal organs dangling below"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Head detachment",
-        "description": "Head separates from body at night, leaving body behind",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Flight",
-        "description": "Flying head can travel through the air",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Blood feeding",
-        "description": "Feeds on blood, particularly from pregnant women and newborns",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Placenta consumption",
-        "description": "Feeds on placenta blood using long tongue",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Organ manipulation",
-        "description": "Can shrink organs in vinegar to reattach to body",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "malevolent",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "villages",
-        "near human settlements",
-        "homes of pregnant women"
-      ],
-      "diet": "Blood (prefers pregnant women, newborns, placentas)",
-      "patterns": [
-        "Normal woman by day",
-        "Head detaches at night",
-        "Seeks pregnant women and newborns",
-        "Feeds on blood using long tongue",
-        "Returns to body before dawn",
-        "Soaks organs in vinegar to shrink for reattachment"
-      ],
-      "preferred_victims": [
-        "Pregnant women (especially in labor)",
-        "Newborn infants",
-        "Women who recently gave birth (for placenta)"
-      ]
-    },
-    "detection": [
-      {
-        "method": "Vinegar smell",
-        "description": "Distinctive vinegar odor from organ preservation",
-        "reliability": "high"
-      },
-      {
-        "method": "Finding the jar",
-        "description": "Discovering the vinegar jar where organs are soaked",
-        "reliability": "definitive"
-      }
-    ],
-    "protection": [
-      {
-        "method": "Thorny plants",
-        "description": "Place thorny plants (like rose bushes) around house; entrails get caught in thorns",
-        "effectiveness": "traditional"
-      },
-      {
-        "method": "Sharp objects",
-        "description": "Scatter sharp objects that can catch trailing organs",
-        "effectiveness": "traditional"
-      },
-      {
-        "method": "Overturned mortar",
-        "description": "Place overturned mortar to confuse or trap the creature",
-        "effectiveness": "traditional"
-      }
-    ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
   },
-
   "distribution": {
     "range": {
-      "description": "Southeast Asian folklore, particularly Malaysia and Indonesia. Similar creatures found in Thailand (Krasue), Cambodia, Laos, and Philippines (Manananggal).",
-      "continents": ["Asia"],
-      "countries": ["Malaysia", "Indonesia", "Thailand", "Cambodia", "Laos"],
-      "regions": [
-        "Malay Peninsula",
-        "Indonesian archipelago",
-        "Bali",
-        "Southeast Asian mainland"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Traditional folklore, documented in colonial period",
+        "date": "Unknown",
         "circa": true,
-        "source": "Oral traditions and colonial-era documentation"
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Malay and Indonesian folklore, part of broader Southeast Asian tradition of detached head vampires. Reflects cultural fears around childbirth, midwifery, and female practitioners of magic.",
-      "origin_stories": [
-        "Woman practicing black magic whose ritual went wrong",
-        "Midwife who broke fasting rules during religious observance and was cursed",
-        "Woman who made a pact with dark forces",
-        "Curse passed down through generations"
-      ],
-      "folklore_connections": "Part of broader Southeast Asian detached vampire tradition, including Thai Krasue, Filipino Manananggal, and similar creatures throughout the region."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "modern_era": "The Penanggalan remains part of living folklore in Southeast Asia, particularly in rural areas of Malaysia and Indonesia. Some traditional beliefs and protections continue. Appears in modern horror films, literature, and popular culture."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Malay traditional folklore",
-        "Indonesian supernatural traditions",
-        "Village protection rituals",
-        "Midwife and childbirth lore"
-      ],
-      "beliefs": "The Penanggalan is often associated with midwives or women who practice traditional medicine and magic. The creature embodies fears around childbirth, maternal mortality, and those with knowledge of both healing and harmful magic.",
-      "symbolism": [
-        "Dangers of childbirth",
-        "Female power and its corruption",
-        "Black magic consequences",
-        "Violation of religious/cultural taboos",
-        "Vulnerability of pregnant women and newborns"
-      ]
-    },
-    "southeast_asian_cultural_context": {
-      "significance": "Important part of living Southeast Asian folk tradition, particularly in Malay and Indonesian cultures. Reflects cultural anxieties around pregnancy, childbirth, and female practitioners of traditional medicine.",
-      "sensitivity_note": "The Penanggalan is part of living Southeast Asian folk tradition. Some belief continues in rural communities. Approach with respect for cultural context and ongoing traditions.",
-      "current_belief": "While modernization has reduced belief, some rural communities in Malaysia and Indonesia still observe traditional protections, particularly around pregnant women and childbirth"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "film": [
-        "Various Southeast Asian horror films",
-        "Malaysian horror cinema",
-        "Indonesian supernatural films"
-      ],
-      "literature": [
-        "Southeast Asian folklore collections",
-        "Horror fiction featuring the creature"
-      ],
-      "games": [
-        "Various horror games",
-        "Southeast Asian mythology-based games"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "theories": {
-    "folkloric": [
-      {
-        "name": "Black magic practitioner",
-        "description": "Woman who practiced dark magic and was transformed or cursed as result",
-        "evidence_cited": ["Association with magic practitioners", "Ritual gone wrong narratives"]
-      },
-      {
-        "name": "Religious transgression curse",
-        "description": "Curse resulting from breaking religious fasting or other sacred rules",
-        "evidence_cited": ["Midwife fasting violation stories", "Religious context"]
-      }
-    ],
-    "sociological": [
-      {
-        "name": "Midwife anxiety",
-        "description": "Folklore reflects cultural anxiety about midwives who have power over life and death, both healing and potentially harmful",
-        "evidence_cited": ["Frequent association with midwives", "Childbirth focus"]
-      },
-      {
-        "name": "Maternal mortality fears",
-        "description": "Embodies dangers of childbirth in pre-modern societies with high maternal and infant mortality",
-        "evidence_cited": ["Targets pregnant women and newborns", "Childbirth association"]
-      }
-    ],
-    "comparative": [
-      {
-        "name": "Regional variation",
-        "description": "Part of widespread Southeast Asian tradition with regional variations (Krasue, Manananggal, etc.)",
-        "evidence_cited": ["Similar creatures across region", "Shared cultural motifs"]
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "skeat-malay",
-      "type": "book",
-      "title": "Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula",
-      "authors": ["Walter William Skeat"],
-      "publication": "Macmillan and Co.",
-      "date": "1900"
-    },
-    {
-      "id": "winstedt-malay",
-      "type": "book",
-      "title": "The Malay Magician: Being Shaman, Saiva and Sufi",
-      "authors": ["Richard Winstedt"],
-      "publication": "Routledge",
-      "date": "1951"
-    },
-    {
-      "id": "laderman-midwives",
-      "type": "book",
-      "title": "Wives and Midwives: Childbirth and Nutrition in Rural Malaysia",
-      "authors": ["Carol Laderman"],
-      "publication": "University of California Press",
-      "date": "1983",
-      "isbn": "978-0520049130"
-    }
-  ]
+  "sources": []
 }
