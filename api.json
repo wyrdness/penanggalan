@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/penanggalan",
     "maintainers": [
       {
@@ -16,72 +16,138 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "penanggalan",
     "name": "Penanggalan",
-    "aliases": [],
+    "aliases": [
+      { "name": "Penanggal", "language": "Malay", "region": "Peninsular Malaysia" },
+      { "name": "Hantu Penanggalan", "language": "Malay", "region": "Malay world" }
+    ],
     "category": "UNDEAD",
-    "subcategory": "| Blood-drinking undead creatures |",
+    "subcategory": "Detached-head vampire (severed-head female undead)",
     "tags": [
-      "folklore",
-      "mythology"
+      "malay",
+      "malaysia",
+      "indonesia",
+      "vampire",
+      "undead",
+      "detached-head",
+      "blood-drinker",
+      "pregnancy",
+      "newborn",
+      "southeast-asia"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Penanggalan** is one of Southeast Asia's most horrifying supernatural creatures—a female vampire whose **head detaches from her body at night**, trailing her **exposed spine, intestines, stomach, and other internal organs** as she flies through the darkness seeking blood.",
-      "full": "The **Penanggalan** is one of Southeast Asia's most horrifying supernatural creatures—a female vampire whose **head detaches from her body at night**, trailing her **exposed spine, intestines, stomach, and other internal organs** as she flies through the darkness seeking blood."
+      "summary": "The penanggalan is a vampiric female undead of Malay folklore: by day a normal-seeming woman, by night her head detaches and flies through the dark trailing her stomach, lungs, and intestines, hunting the blood of women in childbirth and newborns.",
+      "full": "The penanggalan (Malay 'penanggal', from tanggal, 'to detach') is one of the most distinctive vampiric figures in Southeast Asian folklore, particularly associated with the Malay world (Malaysia, Indonesia, Singapore, Brunei) and closely related to similar creatures across the region. By day, the penanggalan is a living woman; at night her head detaches from her body and flies through the air with its viscera - lungs, stomach, and intestines - dangling beneath. The detached head is luminous, said to twinkle like a will-o'-the-wisp. She hunts pregnant women, newborn infants, and women in childbirth, slipping beneath the stilts of traditional Malay houses (rumah panggung) and using her long tongue to drink the blood of the new mother through cracks in the floor. The condition is often acquired through black magic - traditionally a meditation submerged in a vat of vinegar - and the vinegar must be used regularly to shrink the organs back to fit when the head reattaches at dawn. Defences in tradition include scattering thorny pandanus (mengkuang) leaves around the house, looping glass shards on windows, and placing scissors or sharp objects beneath pillows. Direct cognates appear across Southeast Asia: the krasue (Thailand), ahp (Cambodia), kasu (Laos), kuyang and leyak (Indonesia), manananggal (Philippines), and ma lai (Vietnam)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Malay, from the verb tanggal ('to detach, to remove'), with the nominalising prefix peng-/pen- and suffix -an, giving 'one who detaches'.",
+      "meaning": "'(One that) detaches' - a direct reference to the head separating from the body.",
+      "first_use": "Documented in 19th-century Malay literature, including Munsyi Abdullah's Hikayat Abdullah (1845); the underlying tradition is older and oral."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "UNDEAD",
-      "type": "| Blood-drinking undead creatures |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Vampiric undead",
+      "subtype": "Detached-head female blood-drinker",
+      "variant": "Malay (with Southeast Asian cognates)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "krasue", "name": "Krasue", "relationship": "regional_variant", "description": "Thai equivalent: a floating head with trailing viscera" },
+      { "id": "manananggal", "name": "Manananggal", "relationship": "regional_variant", "description": "Filipino self-segmenting female vampire (torso detaches at the waist rather than head at the neck)" },
+      { "id": "leyak", "name": "Leyak", "relationship": "regional_variant", "description": "Balinese floating head and trailing viscera" },
+      { "id": "ahp", "name": "Ahp", "relationship": "regional_variant", "description": "Cambodian counterpart" },
+      { "id": "ma-lai", "name": "Ma Lai", "relationship": "regional_variant", "description": "Vietnamese counterpart" },
+      { "id": "kuyang", "name": "Kuyang", "relationship": "regional_variant", "description": "Indonesian Dayak counterpart" },
+      { "id": "pontianak", "name": "Pontianak / Kuntilanak", "relationship": "related", "description": "Other female Malay vampiric undead, often associated with childbirth" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Detached head", "description": "At night the head separates from the body at the neck", "frequency": "always" },
+        { "feature": "Trailing viscera", "description": "Stomach, lungs, intestines, and other organs dangle from the neck of the flying head", "frequency": "always" },
+        { "feature": "Luminous appearance", "description": "Said to twinkle like a ball of fire or will-o'-the-wisp at a distance", "frequency": "common" },
+        { "feature": "Long extending tongue", "description": "Used to lap blood through floor cracks of traditional stilt houses", "frequency": "common" },
+        { "feature": "Vinegar-scented body", "description": "The body that remains behind smells of vinegar, used to soak the organs to shrink them for reattachment", "frequency": "common" },
+        { "feature": "Normal human form by day", "description": "By day she appears as an ordinary woman, often middle-aged and unremarkable", "frequency": "always" }
+      ],
+      "morphology": "By day a corporeal female human; at night, a self-decapitating undead whose detached head and trailing organs fly independently."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Self-decapitation and flight", "description": "Detaches her head from her body at night and flies independently with her viscera trailing behind", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Blood-drinking", "description": "Drinks the blood of women in childbirth and of newborn infants, sometimes using her long tongue to lap blood through cracks in the floor of stilt houses", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Vinegar-shrinking ritual", "description": "Soaks her organs in vinegar to shrink them back to a size that allows reattachment to her body before dawn", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Vulnerability to thorns and sharp objects", "description": "Defeated or repelled by mengkuang (pandanus) thorns, glass shards, scissors, and sharp objects placed strategically", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["villages of traditional Malay stilt houses", "rural communities", "areas with childbirth and newborn presence"],
+      "diet": "Blood, especially the blood of women in childbirth, of menstruating women, and of newborns",
+      "patterns": [
+        "Lives a normal life as a woman by day",
+        "Detaches her head and viscera at nightfall",
+        "Targets households with women in late pregnancy or with newborns",
+        "Slips under stilt houses and laps blood through floor gaps",
+        "Returns to her body before dawn and soaks her organs in vinegar to refit"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The penanggalan tradition is centred in the Malay Peninsula and the Malay Archipelago, with directly related variants attested across mainland and maritime Southeast Asia.",
+      "continents": ["Asia"],
+      "countries": ["Malaysia", "Indonesia", "Singapore", "Brunei"],
+      "regions": ["Malay world (alam Melayu)", "Peninsular Malaysia", "Sumatra", "Borneo", "Java"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Rural Peninsular Malaysia",
+        "location": {
+          "description": "Traditional Malay villages (kampung) of the Malay Peninsula, where stilt-house architecture and childbirth practices form the cultural setting of the legend",
+          "country": "Malaysia",
+          "region": "Peninsular Malaysia"
+        },
+        "peak_period": "19th-20th century",
+        "notes": "Cultural heartland of the penanggalan tradition."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1845",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Hikayat Abdullah by Munsyi Abdullah (Abdullah bin Abdul Kadir), 1845, includes early documentation of the figure."
+      },
+      "peak_activity_periods": [
+        { "period": "19th-20th century", "description": "Strong attestation in Malay literature, ethnography, and oral tradition." },
+        { "period": "Late 20th century to present", "description": "Continued prominence in Malaysian and Indonesian horror cinema and television." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The penanggalan emerges from pre-Islamic animistic beliefs of the Malay Archipelago, in which female blood-drinking undead were associated with the dangers of childbirth and infant mortality. The tradition has continued under Islamic religious culture and reflects shared Southeast Asian motifs of detached-head vampires.",
+      "earliest_accounts": "Documented in the Hikayat Abdullah (1845); the pattern of detached-head vampires has clear regional cognates with deep roots in mainland Southeast Asia and the archipelago.",
+      "folklore_connections": "Direct cognates: krasue (Thailand), ahp (Cambodia), kasu (Laos), kuyang and leyak (Indonesia), manananggal (Philippines), ma lai (Vietnam). Related to the wider Malay class of female vampiric undead, including pontianak and langsuir."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1845", "event": "Munsyi Abdullah's Hikayat Abdullah includes references to penanggalan beliefs", "significance": "Early Malay-language attestation", "source": "Abdullah bin Abdul Kadir - Hikayat Abdullah (1845)" },
+      { "date": "1900", "event": "Walter William Skeat publishes Malay Magic, with extensive material on penanggalan and related Malay vampiric beliefs", "significance": "Foundational English-language ethnographic record", "source": "Skeat, W. W. - Malay Magic (Macmillan, 1900)" },
+      { "date": "1957", "event": "B. N. Rama Rao directs the Malay film 'Sumpah Orang Minyak' and related Cathay-Keris and Shaw Brothers Malay-horror productions of the 1950s-60s establish the penanggalan and pontianak as cinematic figures", "significance": "Mass-cultural visualisation of the figure", "source": "Cathay-Keris and Shaw Brothers Malay film catalogues" }
+    ],
+    "modern_era": "The penanggalan remains a major figure in Malaysian and Indonesian horror cinema, comics, novels, and games, including Mat Sentul and Cathay-Keris classic horror films, contemporary works such as Pontianak Harum Sundal Malam and other regional folk-horror productions, and major social-media-driven folk-horror revivals."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +158,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,28 +166,104 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Black-magic transformation",
+        "description": "Within the tradition, the penanggalan is a real woman who has acquired her condition through black magic - typically a ritual meditation submerged in a vat of vinegar.",
+        "proponents": ["Malay folk-magic tradition"],
+        "evidence_cited": ["Recurring ritual creation narrative across the Malay world"]
+      },
+      {
+        "name": "Cursed-pact narrative",
+        "description": "Some variants describe the condition as the result of a broken religious pact or a punishment for engagement with forbidden knowledge.",
+        "proponents": ["Malay oral tradition"],
+        "evidence_cited": ["Variant origin stories collected in folklore literature"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural-symbolic explanation",
+        "description": "Folklorists and medical anthropologists read the penanggalan as a cultural figure that crystallises real anxieties around childbirth mortality, postpartum illness, infant death, and the social policing of women in traditional communities.",
+        "proponents": ["Malay studies / Southeast Asian folklore scholarship"],
+        "evidence_cited": ["Targets are pregnant women, postpartum women, and newborns - groups historically at high mortality risk", "Strong cross-cultural patterning of female detached-head vampires across Southeast Asia"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Malay folk magic and demonology",
+        "Wider Southeast Asian detached-head vampire tradition (krasue / leyak / manananggal cluster)"
+      ],
+      "stories": [
+        "A village midwife or neighbour woman is suspected of being penanggalan after a series of infant deaths",
+        "A husband returns home unexpectedly and discovers his wife's headless body, which he then sanctifies or destroys",
+        "A new mother is protected from a penanggalan by mengkuang thorns scattered beneath her house"
+      ],
+      "beliefs": "Pregnant women, women in confinement, and newborns are believed especially vulnerable to penanggalan attack; protective measures include thorny mengkuang leaves, glass shards, sharp objects under the pillow, and Quranic recitation."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Hikayat Abdullah (1845) by Munsyi Abdullah",
+        "Walter William Skeat - Malay Magic (1900)",
+        "Modern Malaysian and Indonesian horror fiction"
+      ],
+      "film_tv": [
+        "Mid-20th-century Cathay-Keris and Shaw Brothers Malay horror films",
+        "Modern Malaysian and Indonesian horror productions featuring penanggalan and related creatures"
+      ],
+      "games": [
+        "Penanggalan as bestiary entries in tabletop games (e.g., Dungeons & Dragons) and in Southeast Asian folk-horror video games"
+      ],
+      "other": [
+        "Persistent presence in Malaysian and Indonesian social media folk-horror"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Walter William Skeat", "affiliation": "British colonial ethnographer", "contribution": "Author of Malay Magic (1900), the foundational English-language reference on Malay folklore including the penanggalan", "period": "1880s-1920s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Continued interest in the penanggalan and related figures within Southeast Asian studies, gender studies, religious studies, and folklore studies. No paranormal or biological research."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-penanggalan",
+      "type": "website",
+      "title": "Penanggalan",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Penanggalan",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "atlas-obscura-penanggalan",
+      "type": "article",
+      "title": "The Malaysian Penanggalan Haunts Pregnant Women and Newborns",
+      "publication": "Atlas Obscura",
+      "url": "https://www.atlasobscura.com/articles/monster-mythology-penanggalan",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "skeat-1900",
+      "type": "book",
+      "title": "Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula",
+      "authors": ["Walter William Skeat"],
+      "publication": "Macmillan",
+      "date": "1900"
+    },
+    {
+      "id": "hikayat-abdullah-1845",
+      "type": "book",
+      "title": "Hikayat Abdullah",
+      "authors": ["Abdullah bin Abdul Kadir (Munsyi Abdullah)"],
+      "date": "1845"
+    }
+  ]
 }
